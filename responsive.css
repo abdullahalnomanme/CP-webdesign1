@@ -1,0 +1,242 @@
+@media only screen and (min-width: 1920px){
+	.header::after {
+		background-position: 64% 0;
+	}
+}
+@media only screen and (min-width: 1680px) and (max-width: 1919px) {
+	.header::after {
+		background-position: 59.5% 0;
+	}
+}
+
+@media only screen and (min-width: 1600px) and (max-width: 1679px) {
+	.header::after {
+		background-position: 59% 0;
+	}
+}
+
+
+@media only screen and (min-width: 1400px) and (max-width: 1599px) {
+	.header::after {
+		background-position: 57.5% 0;
+	}
+}
+
+
+@media only screen and (min-width: 1024px) and (max-width: 1200px) {
+
+}
+
+/*	Medium Layout: 1280px	*/
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+	/* css */
+	.about-text {
+		margin-left: -60px;
+		margin-top:0;
+	}
+	.blog-section.home-blog .category-bx a {
+		font-size: 10px;
+	}
+}
+
+/*		Tablet Layout: 768px.       */
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+	.main-menu {
+		padding-right: 0;
+	}
+	.search-box .form-group.has-search {
+		margin-left: 20px;
+	}
+	.header .col-lg-2 {
+		width: 25%;
+		max-width: 25%;
+		flex: none;
+	}
+
+	.header .col-lg-6 {
+		width: 75%;
+		max-width: 75%;
+		flex: none;
+	}
+
+	.header .col-lg-4 {
+		width: 50%;
+		margin-left: 50%;
+		max-width: 50%;
+		flex: none;
+	}
+	h3 {
+		font-size: 18px;
+	  }
+	.single-blog-item .blog-content {
+		padding: 10px;
+		font-size: 12px;
+	}
+	.category-bx {
+		background-color: #fff;
+		padding: 15px 10px;
+	}
+	.category-bx a {
+		padding: 10px 0;
+		font-size: 12px;
+	}
+	.category-bx a span {
+		margin-left: 10px;
+	}
+	.author-profile {
+		padding-top: 5px;
+		padding-bottom: 5px;
+		font-size: 11px;
+
+	}
+	.author-profile p {
+		margin-bottom: 10px;
+	}
+	.blog-section.home-blog .category-bx {
+		padding: 15px 5px;
+	}
+	.blog-section.home-blog .category-bx a {
+		font-size: 10px;
+	}
+	.blog-section.home-blog .category-bx i.fa {
+		font-size: 12px;
+		width: 24px;
+		height: 24px;
+		line-height: 24px;
+	}
+}
+
+
+
+
+/*		Tablet and Mobile Layout         */
+@media only screen and (max-width: 991px) {
+	.logo {
+		width: auto;
+	  }
+	.single-footer {
+		margin-bottom: 50px;
+	}
+	.blog-section .single-blog-item {
+		margin-bottom: 40px;
+	}
+	.blog-section .blog-slides {
+		padding: 30px 0;
+	}
+	.right-thumb-blog {
+		display: block;
+		padding: unset;
+	}
+	.right-thumb-blog .blog-thumbnails {
+		margin-right: unset;
+		align-self: center;
+		width: auto;
+	}
+	.single-blog-item.right-thumb-blog .blog-content {
+		padding: 20px;
+	}
+	.about-text {
+		margin-left: 0;
+		margin-top: 0;
+	}
+	.contact-text h2 {
+		margin-top: 0px;
+	  }
+	  .comment-item .profile {
+		margin-right: 10px;
+	  }
+	  .full-thumb-blog .blog-content {
+		position: unset;
+		background-color: #000;
+	}
+	.main-menu li {
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+	.category-bx a {
+		font-size: 12px;
+	}
+	.category-bx a span {
+		margin-left: 0;
+	}
+	.footer-menu ul li {	
+		padding-right: 15px;
+		padding-left: 15px;
+	}
+	
+}
+
+
+/*		Tablet and Mobile Layout max-width: 767px      */
+@media only screen and (max-width: 767px) {
+	.main-menu {
+        display:none;
+    }
+    .slicknav_menu {
+        display:block;
+	}
+	.slicknav_menu {
+		background: #646ba1;;
+		position: absolute;
+		width: 100%;
+		top: 170px;
+		left: 0;
+		z-index: 9;
+	}
+	.slicknav_btn {
+		background-color: transparent;
+		border: 0.5px solid #fff;
+	}
+	.slicknav_nav li, .slicknav_nav ul {
+		text-align: center;
+	}
+	h2{
+		font-size: 23px;
+	}
+	.post-body .count-btns span {
+		margin-right: 0px;
+	}
+	.post-body .count-btns button i {
+		font-size: 15px;
+		margin-right: 0;
+	}
+	.post-body .reactions .share-btn {
+		margin-left: 5px;
+	}
+	footer.footer-area {
+		text-align: center;
+	}
+	.single-footer {
+		margin-bottom: 15px;
+	}
+	.header {
+		padding-bottom: 70px;
+	}
+	
+}
+
+
+/*		Wide Mobile Layout: 480px.        */
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+
+	/* css */
+
+}
+
+
+
+
+
+/*	Retina media query.
+	Overrides styles for devices with a 
+	device-pixel-ratio of 2+, such as iPhone 4.
+-----------------------------------------------    */
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (min-device-pixel-ratio: 2) {
+
+	/* css */
+
+}
